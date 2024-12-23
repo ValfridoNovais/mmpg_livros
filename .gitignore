@@ -1,2 +1,28 @@
-.venv
-venv
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configurações de ambiente virtual
+.env/
+*.env
+.venv/
+*.venv/
+venv/
+venv*
+# Arquivos de áudio gerados
+audio/
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.swp
+
+# Arquivos temporários do sistema
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Outros arquivos gerados automaticamente
+*.bak
